@@ -22,6 +22,9 @@ export default function Navbar() {
                     <li>
                         <Link href="../registro">registro</Link>
                     </li>
+                    <li>
+                        <Link href="../recuperacao">recuperação</Link>
+                    </li>
 
                 </ul>
         </div>

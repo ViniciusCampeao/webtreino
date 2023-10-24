@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 
 const Login = () => {
-  return (
+  return ( 
     <div className="min-h-screen flex items-center justify-center bg-[#8b8b8b]">
       <div className="bg-[#0a1113] p-8 rounded shadow-lg w-96 h-200">
                     <div className="flex items-center justify-center">
@@ -46,7 +46,7 @@ const Login = () => {
           </button>
           <div className="mt-3">
             <a
-              href="#"
+              href="./recuperacao"
               className="border-solid md:border-dotted block text-center self-end p-2 text-white hover:underline  relative"
             >
               Esqueci minha senha
@@ -54,7 +54,7 @@ const Login = () => {
           </div>
           <div className="text-center p-3 text-white">
             Não possui conta?{" "}
-            <a href="#" className="text-blue-500 hover:underline">
+            <a href="./registro" className="text-blue-500 hover:underline">
               Registro
             </a>
           </div>
